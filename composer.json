@@ -23,7 +23,10 @@
         "civicrm-asset": {
             "path": "web/assets/civicrm",
             "url": "/assets/civicrm"
-        }
+        },
+        "compile": [
+            {"run": "@sh cd vendor/civicrm/civicrm-core/xml ; php GenCode.php 0 0 Standalone"}
+        ]
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
