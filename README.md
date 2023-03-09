@@ -49,9 +49,9 @@ Using [artfulrobot's CiviCRM buildkit](https://github.com/artfulrobot/civicrm-bu
 # Clone this fork/branch:
 git clone git@github.com:artfulrobot/civicrm-buildkit.git -b artfulrobot-standalone
 
-# Swap out the cv for artfulrobot fork:
+# Swap out the cv for the latest version (once cv v0.3.33 is released, can skip this)
 cd civicrm-buildkit
-./use-artfulrobot-cv 
+./use-updated-cv 
 
 # If everything else is in place you can now use civibuild:
 civibuild create mytest1 --type standalone-clean
