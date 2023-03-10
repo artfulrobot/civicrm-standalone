@@ -25,6 +25,11 @@
             "url": "/assets/civicrm"
         }
     },
+    "autoload": {
+      "psr-0": {
+        "CRM_": ["src/"]
+      }
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
